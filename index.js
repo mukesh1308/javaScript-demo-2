@@ -38,6 +38,19 @@ function nextInLine(arr,item){
 }
 
 var arr=[1,2,3,4,5];
-console.log("before :"+JSON.stringify(arr));
-console.log(nextInLine(arr,6));
-console.log("after :"+JSON.stringify(arr));
+//! console.log("before :"+JSON.stringify(arr));
+//! console.log(nextInLine(arr,6));
+//! console.log("after :"+JSON.stringify(arr));
+
+function isGrater(num1,num2){
+    if(num1>num2){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+var a=5;
+var b=10;
+//! console.log(isGrater(a,b));
