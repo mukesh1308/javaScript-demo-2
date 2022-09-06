@@ -54,3 +54,45 @@ function isGrater(num1,num2){
 var a=5;
 var b=10;
 //! console.log(isGrater(a,b));
+if(a==b){
+    //! console.log("equal");
+}
+else{
+    //! console.log("not equal");
+}
+
+
+if(3==='3'){
+    //! console.log("equal");
+}
+else{
+    //! console.log("not equal")
+}
+
+if(3=='3'){
+    //! console.log("equal");
+}
+else{
+    //! console.log("not equal");
+}
+
+
+if(2<5){
+    //! console.log("less");
+}
+else if(2==5){
+    //! console.log("equal");
+}
+else{
+    //! console.log("grater");
+}
+
+
+var val=50;
+
+if(val<=100 && val>=0){
+    console.log("in between 0 and 100");
+}
+else{
+    console.log("not");
+}
