@@ -96,3 +96,22 @@ if(val<=100 && val>=0){
 else{
     console.log("not");
 }
+
+//challenge
+
+function comp(num){
+    if(num<5){
+        return "Tiny";
+    }
+    else if(num <10){
+        return "Small";
+    }
+    else if(num<15){
+        return "Medium";
+    }
+    else if(num<20){
+        return "Large";
+    }
+    return "huge";
+}
+//!console.log(comp(17));
