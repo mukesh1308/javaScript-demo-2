@@ -141,4 +141,23 @@ function golfScore(par,strokes){
         return ret[6];
     }
 }
-console.log(golfScore(5,4));
+//! console.log(golfScore(5,4));
+
+
+//switch-case
+ function switch_case(val){
+    switch(val){
+        case 1:
+            return "alpha";
+        case 2:
+            return "beta";
+        case 3:
+            return "gamma";
+        case 4:
+            return "delta";
+        default:
+            return "invalid"
+    }
+
+ }
+ //! console.log(switch_case(3));
