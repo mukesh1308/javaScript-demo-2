@@ -91,10 +91,10 @@ else{
 var val=50;
 
 if(val<=100 && val>=0){
-    console.log("in between 0 and 100");
+    //! console.log("in between 0 and 100");
 }
 else{
-    console.log("not");
+    //! console.log("not");
 }
 
 //challenge
@@ -115,3 +115,30 @@ function comp(num){
     return "huge";
 }
 //!console.log(comp(17));
+
+// golfScore challenge
+var ret=["hole-in-one","eagle","birdie","par","bogey","double-bogey","go home"];
+function golfScore(par,strokes){
+    if(strokes==1){
+        return ret[0];
+    }
+    else if(strokes<=par-2){
+        return ret[1];
+    }
+    else if(strokes<=par-1){
+        return ret[2];
+    }
+    else if(strokes<=par){
+        return ret[3];
+    }
+    else if(strokes <=par+1){
+        return ret[4];
+    }
+    else if(strokes<=par+2){
+        return ret[5];
+    }
+    else{
+        return ret[6];
+    }
+}
+console.log(golfScore(5,4));
